@@ -4,9 +4,9 @@ body {
 	font-family: Arial, sans-serif;
 	color: #fff;
 	display: flex;
-	justify-content: center;
+	flex-direction: column; /* чтобы карта шла под карточкой */
 	align-items: center;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .card {
@@ -16,6 +16,7 @@ body {
 	text-align: center;
 	width: 350px;
 	box-shadow: 0 0 30px rgba(255,255,255,0.05);
+	margin-top: 40px;
 }
 
 .photo {
@@ -51,4 +52,18 @@ p {
 
 	.btn:hover {
 		background: #0062cc;
+	}
+
+/* —тиль дл€ блока карты */
+.map-container {
+	margin: 40px auto;
+	text-align: center;
+}
+
+	.map-container iframe {
+		width: 100%;
+		max-width: 800px;
+		height: 400px;
+		border: 0;
+		border-radius: 12px;
 	}
