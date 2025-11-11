@@ -1,0 +1,12 @@
+# Visual Studio temporary files
+.vs/
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Node.js / npm (если будут использоваться)
+node_modules/
+
+# Mac system files
+.DS_Store
